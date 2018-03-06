@@ -167,7 +167,7 @@ public class RecipesTests {
         assertEquals("to make sweet fruits, mix 2.0 mixed fruits, 0.3 sugar", "" + sweetFruits);
     }
 
-    /*@Test 
+    @Test 
     public void testRecipe() {
     	SimpleIngredient cheese = new SimpleIngredient("cheese");
         SimpleIngredient ham = new SimpleIngredient("ham");
@@ -226,5 +226,4 @@ public class RecipesTests {
         
         assertEquals("[bread][cheese][francesinha sauce][ham][olive][tooth pick]",s);
     }
-	*/
 }

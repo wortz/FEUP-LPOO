@@ -21,6 +21,11 @@ public abstract class Ingredient {
 	}
 	
 	
+	public int compareTo(Ingredient ingredient) {
+        return this.name.compareTo(ingredient.name);
+	}
+	
+	
 	public String toString() {
 		return this.name;
 	}
