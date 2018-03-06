@@ -11,4 +11,18 @@ public abstract class Ingredient {
 		return this.name;
 	}
 	
+
+	public boolean equals(SimpleIngredient s) {
+		return this.getName()==s.getName();
+	}
+	
+	public boolean equals(Object s) {
+		return this.getName()==((SimpleIngredient)s).getName();
+	}
+	
+	
+	public String toString() {
+		return this.name;
+	}
+	
 }
