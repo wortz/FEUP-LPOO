@@ -1,6 +1,6 @@
 package recipes;
 
-public abstract class Ingredient {
+public abstract class Ingredient implements Comparable<Ingredient> {
 	private String name;
 	public Ingredient(String name) {
 		if(name ==null) throw new IllegalArgumentException();
